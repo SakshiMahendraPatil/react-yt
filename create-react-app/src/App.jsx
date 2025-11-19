@@ -1,12 +1,13 @@
 import React from 'react'
+import Card from './components/card'
 
 const App = () => {
+  
   return (
-    <div>
-      <h1> Sakshi  </h1>
+    <div className='parent'>
+      <Card user='Shruti'/>
     </div>
   )
 }
 
 export default App
-
