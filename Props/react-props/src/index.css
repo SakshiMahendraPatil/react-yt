@@ -1,0 +1,129 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+.parent{
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  gap: 19px;
+  flex-wrap: wrap;
+  padding: 22px;
+  
+}
+.card{
+  height: 290px;
+  width:210px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 15px;
+  margin-top: 15px;
+  
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.card .top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px
+ ;
+}
+.top img {
+  padding-left: px;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  
+}
+.top button{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: transparent;
+ border: none;
+ gap: 3px;
+ color: #b2b2b2;
+ 
+ 
+}
+.center{
+ background-color: rgb(255, 255, 255);
+
+}
+.center h3{
+  font-size: 15px;
+  font-weight: 500;
+}
+.center h3 span{
+  
+  font-size: 10px;
+  font-weight:400 ;
+  color: #8b8b8b;
+}
+.center h2{
+  font-size: 20px;
+}
+.center h4{
+  background-color: #e2dfdf;
+  font-size: 13px;
+  font-weight: 500;
+}
+.tag{
+  font-size: 5px ;
+  display: flex;
+  gap: 6px;
+}
+.center .tag h4{
+    font-size: 10px;
+    background-color: #dadada;
+    color: #242424;
+    font-weight: 500;
+    padding: 3px 8px;
+    border-radius: 5px;
+    margin-top: 3px;
+}
+.bottom{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top:1px solid #b1b1b1 ;
+  padding: 7px;
+ 
+}
+.bottom button{
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  column-width: 600;
+}
+.bottom h3{
+  font-size: 17px;
+}
